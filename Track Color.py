@@ -25,7 +25,7 @@ while True:
     # however if that color is detected this 'if' statement will run
 
     if len(mask_cnts)> 0:
-        c = max()
+        c = max(mask_cnts, key= )
         
 
     cv2.imshow('Colored Object Tracking', img)
