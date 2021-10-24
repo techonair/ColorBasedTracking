@@ -1,7 +1,7 @@
 import cv2
 
-redLower = (0, 0, 200)
-redUpper = (0, 0, 255)
+redLower = (170, 20, 20)
+redUpper = (255, 150, 120)
 
 cam = cv2.VideoCapture(0)
 
